@@ -121,6 +121,7 @@ Anywhere Desktop 提供了面向本地 / 云端的双向同步能力：
 
 **如需更多帮助，请访问我们的开源社区或联系开发者。祝您使用愉快！顺便求个 Star 🌟 >.Q**
 
+[GITHUB 开源项目 Anywhere Desktop](https://github.com/Komorebi-yaodong/anywheredesktop)
 [GITHUB 开源项目 Anywhere Desktop 文档](https://github.com/Komorebi-yaodong/anywhere_doc)
 [GITEE 文档镜像仓库](https://gitee.com/Komorebi-yaodong/anywhere_)
 QQ群：1065512489
