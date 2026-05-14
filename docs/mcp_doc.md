@@ -39,7 +39,8 @@ Anywhere Desktop 预置了一组桌面端高频使用的内置 MCP 服务。建�
 * **🤖 Super-Agent**：
   * 用于多 Agent 协作；
   * 支持后台子智能体（Sub-Agent）；
-  * 支持调度其他独立窗口中的 Agent。
+  * 支持调度其他独立窗口中的 Agent；
+  * `sub_agent` 支持 `model_route` 参数，可按 **强思维 / 通用 / 快速** 三类默认助手路由选择后台模型。
 * **📂 File Operations**：
   * 读、写、精确替换、正则替换、插入、搜索文件内容；
   * 对代码 / Markdown / 文本文档处理尤其高效。
