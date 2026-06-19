@@ -68,10 +68,8 @@ Anywhere Desktop 不只是聊天客户端，更是本地 AI 自动化工作站�
 
 本仓库主要服务于两个用途：
 
-1. **为 Anywhere Desktop 主控台提供在线帮助文档源**  
-   桌面端会直接读取这里的 `docs/*.md` 与 `image/*`。
-
-2. **作为对外可访问的用户文档中心**  
+1. **为 Anywhere Desktop 主控台提供在线帮助文档源**桌面端会直接读取这里的 `docs/*.md` 与 `image/*`。
+2. **作为对外可访问的用户文档中心**
    便于在 GitHub / Gitee 中直接浏览、分享和维护文档内容。
 
 因此，文档文件名与路径需要保持稳定，避免桌面端内置索引失效。
@@ -82,15 +80,15 @@ Anywhere Desktop 不只是聊天客户端，更是本地 AI 自动化工作站�
 
 我们为不同模块提供了独立文档，帮助你按功能深入阅读：
 
-| 模块 | 说明 | 文档链接 |
-| :-- | :-- | :-- |
-| **定时任务** | 创建自动化任务，让 AI 定时执行并生成结果。 | [查看文档](./docs/task_doc.md) |
-| **历史对话** | 管理本地与云端会话记录，支持恢复、清理与导出。 | [查看文档](./docs/chat_doc.md) |
-| **快捷助手** | 创建不同类型的助手，掌握快捷召唤与全局追问。 | [查看文档](./docs/ai_doc.md) |
-| **MCP 服务** | 启用内置工具，接入第三方 MCP 服务。 | [查看文档](./docs/mcp_doc.md) |
-| **Skill 技能库** | 编写 SOP、封装技能、使用子智能体模式。 | [查看文档](./docs/skill_doc.md) |
-| **服务商管理** | 配置 API 服务商、模型与多 Key 轮询。 | [查看文档](./docs/provider_doc.md) |
-| **设置与同步** | 配置桌面行为、快捷键、语音与 WebDAV 同步。 | [查看文档](./docs/setting_doc.md) |
+| 模块                   | 说明                                           | 文档链接                        |
+| :--------------------- | :--------------------------------------------- | :------------------------------ |
+| **定时任务**     | 创建自动化任务，让 AI 定时执行并生成结果。     | [查看文档](./docs/task_doc.md)     |
+| **历史对话**     | 管理本地与云端会话记录，支持恢复、清理与导出。 | [查看文档](./docs/chat_doc.md)     |
+| **快捷助手**     | 创建不同类型的助手，掌握快捷召唤与全局追问。   | [查看文档](./docs/ai_doc.md)       |
+| **MCP 服务**     | 启用内置工具，接入第三方 MCP 服务。            | [查看文档](./docs/mcp_doc.md)      |
+| **Skill 技能库** | 编写 SOP、封装技能、使用子智能体模式。         | [查看文档](./docs/skill_doc.md)    |
+| **服务商管理**   | 配置 API 服务商、模型与多 Key 轮询。           | [查看文档](./docs/provider_doc.md) |
+| **设置与同步**   | 配置桌面行为、快捷键、语音与 WebDAV 同步。     | [查看文档](./docs/setting_doc.md)  |
 
 > 以上文档同时也是 Anywhere Desktop 主控台内“使用指南”的实际远程来源。
 
@@ -195,7 +193,6 @@ Anywhere Desktop 是一个持续进化的开源项目，欢迎交流体验、反
 * **GitHub 文档仓库**：[anywhere_doc](https://github.com/Komorebi-yaodong/anywhere_doc)
 * **Gitee 文档镜像**：[anywhere_](https://gitee.com/Komorebi-yaodong/anywhere_)
 * **桌面端主程序项目**：[anywheredesktop](https://github.com/Komorebi-yaodong/anywheredesktop)
-* **QQ 交流群**：`1065512489`
 
 如果你发现文档表述与桌面端现状不一致，欢迎直接提 Issue 或提交 PR。
 
