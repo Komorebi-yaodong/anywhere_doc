@@ -4,7 +4,7 @@
 
 Anywhere Desktop 引入了对 **Skill** 的深度支持，目的是让 AI 学会一整套可复用的工作流程。如果说 MCP 是 AI 的“手”，那 Skill 就是 AI 的“方法论”与“SOP”。
 
-通过 Skill，您可以把代码审查规范、日报模板、写作流程、运维手册等内容封装为可重复调用的技能包，在桌面端对话中按需挂载与执行。
+通过 Skill 可以实现将代码审查规范、日报模板、写作流程、运维手册等内容封装为可重复调用的技能包，在桌面端对话中按需挂载与执行。
 
 ---
 
@@ -65,7 +65,7 @@ D:\skills\
 
 ### 3.2 高级配置：SKILL.md
 
-如果您喜欢直接写文件，也可以手工维护 `SKILL.md`。它通常使用 YAML Frontmatter：
+支持手工维护 `SKILL.md`。它通常使用 YAML Frontmatter：
 
 ```markdown
 ---
@@ -147,7 +147,7 @@ allowed-tools: [read_file]
 
 **Q5: 全局追问可以发给正在执行 Skill 的窗口吗？**
 
-> **A:** 可以。只要独立窗口仍存在，您就可以继续追加文本、图片或文件给它，让当前上下文获得补充信息。
+> **A:** 可以。只要独立窗口仍存在，就可以继续追加文本、图片或文件给它，让当前上下文获得补充信息。
 
 **Q6: 为什么重装系统后 Skill 页面空了？**
 
@@ -155,7 +155,7 @@ allowed-tools: [read_file]
 
 ---
 
-**如需更多帮助，请访问我们的开源社区或联系开发者。祝您使用愉快！顺便求个 Star 🌟 >.Q**
+**如需更多帮助，请访问我们的开源社区或联系开发者。祝使用愉快！顺便求个 Star 🌟 >.Q**
 
 [GITHUB 开源项目 Anywhere Desktop](https://github.com/Komorebi-yaodong/anywheredesktop)
 [GITHUB 开源项目 Anywhere Desktop 文档](https://github.com/Komorebi-yaodong/anywhere_doc)

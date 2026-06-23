@@ -2,9 +2,9 @@
 
 **文档更新时间：2026年4月16日**
 
-「设置」页面是 Anywhere Desktop 的全局控制中心。在这里，您可以对桌面行为、界面外观、全局快捷键、数据备份、WebDAV 同步以及语音功能进行精细配置。
+「设置」页面是 Anywhere Desktop 的全局控制中心。在这里可以对桌面行为、界面外观、全局快捷键、数据备份、WebDAV 同步以及语音功能进行精细配置。
 
-合理的设置可以让桌面端更加贴合您的本机使用习惯。
+合理的设置可以让桌面端更加贴合用户本机使用习惯。
 
 ---
 
@@ -40,7 +40,7 @@
 
 ### 2.1 全局快捷键
 
-您可以配置桌面端的全局快捷键，例如：
+支持配置桌面端的全局快捷键，例如：
 
 * **主控台显示 / 隐藏**
 * **快捷召唤窗口 (Quick Summon)**
@@ -140,7 +140,7 @@ Anywhere Desktop 支持语音输出，让 AI 可以“说话”。
 
 ---
 
-**如需更多帮助，请访问我们的开源社区或联系开发者。祝您使用愉快！顺便求个 Star 🌟 >.Q**
+**如需更多帮助，请访问我们的开源社区或联系开发者。祝使用愉快！顺便求个 Star 🌟 >.Q**
 
 [GITHUB 开源项目 Anywhere Desktop](https://github.com/Komorebi-yaodong/anywheredesktop)
 [GITHUB 开源项目 Anywhere Desktop 文档](https://github.com/Komorebi-yaodong/anywhere_doc)
