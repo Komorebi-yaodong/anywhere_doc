@@ -1,6 +1,6 @@
-# 定时任务 ⏰(Scheduled Tasks) 使用说明文档
+# 定时任务
 
-**文档更新时间：2026年4月16日**
+**文档更新时间：2026年7月26日**
 
 **定时任务** 是 Anywhere Desktop 的核心自动化能力之一。它允许将 AI 工作流交给桌面端后台长期运行，让 AI 在本机环境中定时执行信息搜集、文件整理、报表生成与系统运维类任务。
 
@@ -145,7 +145,7 @@ AI 可以在后台：
 
 ---
 
-**如需更多帮助，请访问我们的开源社区或联系开发者。祝使用愉快！顺便求个 Star 🌟 >.Q**
+如需更多帮助，请访问开源社区或联系开发者。
 
 [GITHUB 开源项目 Anywhere Desktop](https://github.com/Komorebi-yaodong/anywheredesktop)
 [GITHUB 开源项目 Anywhere Desktop 文档](https://github.com/Komorebi-yaodong/anywhere_doc)

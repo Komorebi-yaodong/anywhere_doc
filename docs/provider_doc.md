@@ -1,6 +1,6 @@
-# 服务商 ☁️(Providers) 使用说明文档
+# 服务商
 
-**文档更新时间：2026年6月23日**
+**文档更新时间：2026年7月26日**
 
 为了让您能够自由接入最适合自己的 AI 模型，无论是 OpenAI 官方、DeepSeek、Codex API、Claude / Anthropic，还是各类兼容协议的中转服务，Anywhere Desktop 都提供了灵活且强大的 **服务商管理系统**。
 
@@ -24,7 +24,8 @@
 * **API 密钥 (API Key)**：
   * 输入服务商提供的 Key；
   * 支持多个 Key，用英文逗号 `,` 分隔；
-  * 桌面端会在请求时做随机轮询，降低单 Key 限流风险。
+  * 桌面端会在请求时做随机轮询，降低单 Key 限流风险；
+  * API Key 属于敏感信息。导出、备份或分享配置前，请确认文件仅交给可信对象。
 * **API URL (Base URL)**：
   * 通常填写服务商的基础接口地址；
   * 常见示例：
@@ -39,7 +40,7 @@
 * **自定义 Header**：
   * 可为当前服务商添加额外请求头，例如 `User-Agent`、网关鉴权字段、企业代理所需标识等；
   * Header 会随模型列表获取与聊天请求一起转发；
-  * 请不要把无关敏感信息写入 Header。
+  * Header 可能包含鉴权信息，请勿填写无关敏感数据，也不要将包含它的配置文件公开分享。
 * **启用开关**：停用后，该服务商及其模型将不再出现在模型选择中。
 
 ---
@@ -113,7 +114,7 @@
 
 **Q3: Claude 协议使用报错怎么回事？**
 
-> **A:** **Claude / Anthropic API**需要注意填写的url不是以`v1`结尾，而其他OpenAI API则是以`v1`结尾。
+> **A:** 请以服务商提供的 Base URL 为准。通常 **OpenAI Compatible** 接口使用带 `/v1` 的基础地址；**Claude / Anthropic API** 则填写 Anthropic 风格的基础地址，不要为了保持一致而额外拼接 `/v1`。同时检查协议类型、模型 ID 与自定义 Header 是否匹配网关要求。
 
 **Q4: 什么是 OpenAI 兼容格式？**
 
@@ -129,7 +130,7 @@
 
 ---
 
-**如需更多帮助，请访问我们的开源社区或联系开发者。祝您使用愉快！顺便求个 Star 🌟 >.Q**
+如需更多帮助，请访问开源社区或联系开发者。
 
 [GITHUB 开源项目 Anywhere Desktop](https://github.com/Komorebi-yaodong/anywheredesktop)
 [GITHUB 开源项目 Anywhere Desktop 文档](https://github.com/Komorebi-yaodong/anywhere_doc)

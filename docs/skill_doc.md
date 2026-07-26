@@ -1,6 +1,6 @@
-# Skill 技能库 📚(SKILL) 使用说明文档
+# Skill 技能库
 
-**文档更新时间：2026年4月16日**
+**文档更新时间：2026年7月26日**
 
 Anywhere Desktop 引入了对 **Skill** 的深度支持，目的是让 AI 学会一整套可复用的工作流程。如果说 MCP 是 AI 的“手”，那 Skill 就是 AI 的“方法论”与“SOP”。
 
@@ -19,12 +19,15 @@ Anywhere Desktop 的 Skill 设计遵循渐进式披露原则：
 
 这样既节省 Token，也避免把大量 SOP 文本长期塞入上下文窗口。
 
-### 1.2 本地化存储
+### 1.2 本地优先与云端备份
 
-Skill 是完全本地化的：
+Skill 以本地目录为主，便于直接读取附件、脚本和依赖文件：
 
-* **存储位置**：在主控台 Skill 页面中配置技能目录；
-* **不同步原则**：由于不同电脑环境、路径和依赖链不同，Skill 不建议直接随 WebDAV 同步。更推荐通过导出 / 导入的方式迁移。
+* **存储位置**：在设置的“数据管理”卡片中选择包含多个 Skill 文件夹的父目录；
+* **本地优先**：当前电脑的路径、脚本权限、Python / Node.js 等运行环境仍由本机负责；
+* **WebDAV 备份**：可在设置页将选中的本地 Skill 打包同步到 `配置路径/skill/`，并在云端备份管理器中查看和恢复；
+* **迁移边界**：恢复 Skill 文件不会自动安装依赖、注册环境变量或修复绝对路径。迁移到新设备后，请检查运行环境；
+* **文件限制**：单个 Skill 打包文件最大 50 MB。
 
 ---
 
@@ -90,13 +93,13 @@ allowed-tools: [read_file]
 
 ## 4. 运行模式
 
-### 🔹 普通模式 (Direct Mode)
+### 普通模式（Direct Mode）
 
 * **机制**：直接把 Skill 指令注入当前对话，由当前 AI 执行；
 * **适用**：轻量级流程、格式化任务、简单 SOP 场景；
 * **优点**：快、上下文连贯。
 
-### 🔸 子智能体模式 (Sub-Agent / Fork)
+### 子智能体模式（Sub-Agent / Fork）
 
 #### 子智能体模型路由参数
 
@@ -155,7 +158,7 @@ allowed-tools: [read_file]
 
 ---
 
-**如需更多帮助，请访问我们的开源社区或联系开发者。祝使用愉快！顺便求个 Star 🌟 >.Q**
+### 普通模式（Direct Mode）
 
 [GITHUB 开源项目 Anywhere Desktop](https://github.com/Komorebi-yaodong/anywheredesktop)
 [GITHUB 开源项目 Anywhere Desktop 文档](https://github.com/Komorebi-yaodong/anywhere_doc)

@@ -1,6 +1,6 @@
-# MCP 服务 🔧(Model Context Protocol) 服务使用说明文档
+# MCP 服务
 
-**文档更新时间：2026年6月23日**
+**文档更新时间：2026年7月26日**
 
 **Anywhere Desktop** 对 **MCP (Model Context Protocol)** 提供了深度支持。借助 MCP，AI 不再只是聊天模型，而是能够在桌面端真实调用本地文件、执行命令、运行脚本、联网搜索、调度任务，甚至与其他 Agent 协作的工作执行体。
 
@@ -36,29 +36,29 @@ MCP 的核心依赖是 **Function Calling（工具调用）**。
 
 Anywhere Desktop 预置了一组桌面端高频使用的内置 MCP 服务。建议默认保持启用，它们构成了桌面自动化的基础能力。
 
-* **🤖 Super-Agent**：
+* **Super-Agent**：
   * 用于多 Agent 协作；
   * 支持后台子智能体（Sub-Agent）；
   * 支持调度其他独立窗口中的 Agent；
   * `sub_agent` 支持 `model_route` 参数，可按 **强思维 / 通用 / 快速** 三类默认助手路由选择后台模型。
-* **📂 File Operations**：
+* **文件操作**：
   * 读、写、精确替换、正则替换、插入、搜索文件内容；
   * 对代码 / Markdown / 文本文档处理尤其高效。
-* **🐍 Python Executor**：
+* **Python 执行器**：
   * 自动扫描本机 Python 环境；
   * 允许 AI 生成并运行 Python 脚本。
-* **💻 Shell Executor**：
+* **Shell 执行器**：
   * 在 Windows 下默认执行 PowerShell；
   * 支持后台长任务与日志读取。
-* **🌐 Web Toolkit**：
+* **网络工具**：
   * 提供联网搜索、网页抓取与远程内容读取能力；
   * 网页抓取支持通过 `markitdown-js` 将复杂网页转换为更易读的 Markdown。
-* **🧩 Better Work**：
-  * 提供对话内选择卡片 `ask_user_choice`，边界交互，让AI更加理解用户想法；
-  * 提供会话临时任务清单 `task_write` / `task_read`，可在任务面板中实时展示进度（`Ctrl+T` 快捷展示/收起任务面板）。
-* **⏰ Task Manager**：
+* **Better Work**：
+  * 提供对话内选择卡片 `ask_user_choice`，帮助 AI 确认用户偏好与任务分支；
+  * 提供会话临时任务清单 `task_write` / `task_read`，可在任务面板中实时展示进度（`Ctrl + T` 显示或收起任务面板）。
+* **任务管理器**：
   * 允许 AI 创建、更新和管理桌面端定时任务。
-* **🕒 Time Service**：
+* **时间服务**：
   * 提供当前时间与时区时间读取能力。
 
 ![img](..\image\内置MCP.png)
@@ -203,7 +203,7 @@ Better Work 是一组面向“长任务协作”的内置 MCP 工具：
 
 ---
 
-**如需更多帮助，请访问我们的开源社区或联系开发者。祝使用愉快！顺便求个 Star 🌟 >.Q**
+* **Super-Agent**
 
 [GITHUB 开源项目 Anywhere Desktop](https://github.com/Komorebi-yaodong/anywheredesktop)
 [GITHUB 开源项目 Anywhere Desktop 文档](https://github.com/Komorebi-yaodong/anywhere_doc)
